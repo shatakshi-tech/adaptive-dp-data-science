@@ -1,0 +1,17 @@
+Experiment,Method,Epsilon,Accuracy,F1_Score,ROC_AUC,AUC_Gap_vs_Fixed,AUC_Recovery_%,Note
+Baseline,No DP (LR Baseline),N/A,0.8062,0.5279,0.8314,—,100.0%,No noise — upper bound
+Baseline,No DP (RF Baseline),N/A,0.7767,0.5107,0.7954,—,95.7%,No noise — upper bound
+Privacy Sweep,Fixed DP,0.05,0.751,0.0,0.5136,—,61.8%,Equal budget per feature
+Privacy Sweep,Adaptive DP,0.05,0.7448,0.0963,0.7301,+0.2166,87.8%,Importance-weighted budget
+Privacy Sweep,Fixed DP,0.1,0.751,0.0,0.514,—,61.8%,Equal budget per feature
+Privacy Sweep,Adaptive DP,0.1,0.7444,0.0905,0.7305,+0.2165,87.9%,Importance-weighted budget
+Privacy Sweep,Fixed DP,0.2,0.751,0.0,0.5077,—,61.1%,Equal budget per feature
+Privacy Sweep,Adaptive DP,0.2,0.7454,0.1034,0.7321,+0.2245,88.1%,Importance-weighted budget
+Privacy Sweep,Fixed DP,0.3,0.751,0.0,0.5103,—,61.4%,Equal budget per feature
+Privacy Sweep,Adaptive DP,0.3,0.7461,0.1127,0.7336,+0.2233,88.2%,Importance-weighted budget
+Privacy Sweep,Fixed DP,0.5,0.751,0.0,0.5444,—,65.5%,Equal budget per feature
+Privacy Sweep,Adaptive DP,0.5,0.7451,0.1383,0.7383,+0.1939,88.8%,Importance-weighted budget
+Privacy Sweep,Fixed DP,1.0,0.751,0.0,0.6415,—,77.2%,Equal budget per feature
+Privacy Sweep,Adaptive DP,1.0,0.7481,0.1691,0.7552,+0.1138,90.8%,Importance-weighted budget
+Privacy Sweep,Fixed DP,2.0,0.751,0.0,0.6833,—,82.2%,Equal budget per feature
+Privacy Sweep,Adaptive DP,2.0,0.7585,0.2358,0.7871,+0.1038,94.7%,Importance-weighted budget
